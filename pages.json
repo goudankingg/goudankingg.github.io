@@ -1,0 +1,118 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+
+				"titleImage": "static/title.jpg",
+				"navigationBarBackgroundColor": "#fff"
+				// "enablePullDownRefresh": true,
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "components/box"
+		},
+		{
+			"path": "components/blodbox"
+		},
+		{
+			"path": "components/active"
+		},
+		{
+			"path": "components/boxmin"
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/sale/sale",
+			"style": {
+				"navigationStyle": "custom"
+			}
+			
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/find"
+		},
+		{
+			"path": "pages/authorinfo/authorinfo"
+		},
+		{
+			"path": "pages/supplyinfo/supplyinfo",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/首页.png",
+				"selectedIconPath": "static/首页1.png"
+			}, {
+				"pagePath": "pages/sale/sale",
+				"text": "寄售",
+				"iconPath": "static/购物袋.png",
+				"selectedIconPath": "static/购物袋1.png"
+			},
+			{
+				"pagePath": "pages/find/find",
+				"text": "发现",
+				"iconPath": "static/公告.png",
+				"selectedIconPath": "static/公告1.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/个人中心.png",
+				"selectedIconPath": "static/个人中心1.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

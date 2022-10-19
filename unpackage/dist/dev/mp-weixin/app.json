@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "components/box",
+    "components/blodbox",
+    "components/active",
+    "components/boxmin",
+    "pages/detail/detail",
+    "pages/sale/sale",
+    "pages/find/find",
+    "pages/my/my",
+    "components/find"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#a029f5",
+    "selectedColor": "#a029f5",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/首页.png",
+        "selectedIconPath": "static/首页1.png"
+      },
+      {
+        "pagePath": "pages/sale/sale",
+        "text": "寄售",
+        "iconPath": "static/购物袋.png",
+        "selectedIconPath": "static/购物袋1.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "static/公告.png",
+        "selectedIconPath": "static/公告1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/个人中心.png",
+        "selectedIconPath": "static/个人中心1.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "box": "/components/box",
+    "boxmin": "/components/boxmin",
+    "find": "/components/find",
+    "blodbox": "/components/blodbox",
+    "active": "/components/active"
+  },
+  "sitemapLocation": "sitemap.json"
+}

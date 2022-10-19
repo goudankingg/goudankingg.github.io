@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: 'iconfont';  /* Project id 3641641 */
+  src: url('//at.alicdn.com/t/c/font_3641641_zpx449rx49r.woff2?t=1663844434416') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3641641_zpx449rx49r.woff?t=1663844434416') format('woff'),
+       url('//at.alicdn.com/t/c/font_3641641_zpx449rx49r.ttf?t=1663844434416') format('truetype');
+}
+.iconfont.data-v-2d8262d9 {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-yingyong.data-v-2d8262d9:before {
+  content: "\e603";
+}
+.icon-moban.data-v-2d8262d9:before {
+  content: "\e61f";
+}
+.icon-renzheng.data-v-2d8262d9:before {
+  content: "\e634";
+}
+.icon-dingdandingdanmingxishouzhimingxi.data-v-2d8262d9:before {
+  content: "\e78a";
+}
+.icon-show_yinsizhengce_fill.data-v-2d8262d9:before {
+  content: "\e604";
+}
+.icon-guanyu.data-v-2d8262d9:before {
+  content: "\e622";
+}
+.icon-shujuku.data-v-2d8262d9:before {
+  content: "\e687";
+}
+.icon-shouye1.data-v-2d8262d9:before {
+  content: "\e602";
+}
+.icon-6.data-v-2d8262d9:before {
+  content: "\e601";
+}
+.icon-shizhong.data-v-2d8262d9:before {
+  content: "\e78b";
+}
+.icon-gonggao.data-v-2d8262d9:before {
+  content: "\e64e";
+}
+.icon-suoding.data-v-2d8262d9:before {
+  content: "\e600";
+}
+.icon-vip.data-v-2d8262d9:before {
+  content: "\e6c3";
+}
+.icon-xiajiantou.data-v-2d8262d9:before {
+  content: "\eb6d";
+}
+.icon-shangjiantou.data-v-2d8262d9:before {
+  content: "\eb6e";
+}
+.icon-zhifeiji.data-v-2d8262d9:before {
+  content: "\e6a0";
+}
+.icon-shimingrenzheng.data-v-2d8262d9:before {
+  content: "\e65c";
+}
+.icon-guanyu_o.data-v-2d8262d9:before {
+  content: "\eb77";
+}
+.icon-qianbao.data-v-2d8262d9:before {
+  content: "\e62b";
+}
+.icon-youjiantou.data-v-2d8262d9:before {
+  content: "\e667";
+}
+.icon-anquan.data-v-2d8262d9:before {
+  content: "\e8ab";
+}
+.icon-dingdan.data-v-2d8262d9:before {
+  content: "\e8ae";
+}
+.icon-fuzhi.data-v-2d8262d9:before {
+  content: "\e8b0";
+}
+.icon-shezhi.data-v-2d8262d9:before {
+  content: "\e89d";
+}
+.icon-gouwudai.data-v-2d8262d9:before {
+  content: "\e655";
+}
+.icon-gerenzhongxin.data-v-2d8262d9:before {
+  content: "\e60b";
+}
+.icon-gonggao1.data-v-2d8262d9:before {
+  content: "\f071";
+}
+.icon-shouye.data-v-2d8262d9:before {
+  content: "\e818";
+}
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-2d8262d9, scroll-view.data-v-2d8262d9, swiper-item.data-v-2d8262d9 {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-overlay.data-v-2d8262d9 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+

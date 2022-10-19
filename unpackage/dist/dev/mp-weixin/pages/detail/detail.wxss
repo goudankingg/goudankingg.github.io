@@ -1,0 +1,21 @@
+
+.main{
+width:200px;
+
+/* margin: 10px 20px; */
+
+height: 200px;
+
+background:#58a;
+
+background:
+
+linear-gradient(135deg,transparent 5px, #58a 0) top left,
+
+linear-gradient(-135deg,transparent 5px,#58a 0) top right;
+
+background-size: 80% 100%;
+
+background-repeat: no-repeat;
+}
+

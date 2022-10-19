@@ -1,0 +1,1 @@
+<view class="main"><scroll-view scroll-y="true"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><button class="tabs">{{item.name}}</button></block></scroll-view></view>
